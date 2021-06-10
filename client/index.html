@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basic Chat App</title>
+  <link rel="stylesheet" href="assets/main.css">
+</head>
+<body>
+  <div id="messageContainer"></div>
+  <form id="form">
+    <section class="send_message">
+      <label for="message">Message</label>
+      <input type="text" autofocus  id="messageInput" placeholder="type message..." autocomplete="off">
+      <button class="btn" id="sendButton">Send</button>
+    </section>
+    <section class="join_room">
+      <label for="roomInput">Room</label>
+      <input type="text" id="roomInput" placeholder="join room...">
+      <button class="btn outline" id="roomButton">Join</button>
+    </section>
+  </form>
+  <script src="script.js" type="module"></script>
+</body>
+</html>
